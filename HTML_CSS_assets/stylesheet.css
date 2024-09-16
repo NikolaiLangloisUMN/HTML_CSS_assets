@@ -65,13 +65,25 @@ div.middle section.guts article.main {
 
 div.middle section.guts aside.nav {
     float: left;
-    width: 170px;
+    width: 220px;
     min-height: 600px;
+}
+
+aside.nav a {
+    display: block;
+    border-bottom: 1px solid #7fffbc;
+    font-size: 85%;
+    padding: 10px;
+}
+
+aside.nav a:hover {
+    background-color: #7fffbc;
+    text-decoration: underline;
 }
 
 div.middle section.guts article.main {
     float: right;
-    width: 500px;
+    width: 470px;
     min-height: 600px;
 }
 

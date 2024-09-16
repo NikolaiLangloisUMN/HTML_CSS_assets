@@ -58,6 +58,23 @@ section.guts {
     padding: 1rem;
 }
 
+div.middle section.guts aside.nav,
+div.middle section.guts article.main {
+    border: 1px solid white;
+}
+
+div.middle section.guts aside.nav {
+    float: left;
+    width: 170px;
+    min-height: 600px;
+}
+
+div.middle section.guts article.main {
+    float: right;
+    width: 500px;
+    min-height: 600px;
+}
+
 .bottom a {
     text-transform: lowercase;
     font-size: 9px;
